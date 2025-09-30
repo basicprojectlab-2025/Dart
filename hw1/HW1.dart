@@ -6,7 +6,7 @@ void main(List<String> arg) {
   } else {
     while (argi >= 1) {
       ans += argi % 10;
-      argi = argi ~/ 10;
+      argi ~/= 10;
     }
   }
   print(ans);
